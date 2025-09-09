@@ -4,7 +4,7 @@ i created a kubectl secret using this command:
 then i created a deployment yaml file to contain:
 	service - deployment - mysql containers - PVC - env variable to store password secret
 	
-#############################################################################################
+#########################################################
 
 # K8s-Tasks - Task2
 i created a private key to use in crt generating
