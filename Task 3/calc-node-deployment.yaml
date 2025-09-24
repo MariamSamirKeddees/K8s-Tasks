@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: calc-node-deployment
+spec:
+  replicas: 3 
+  selector:
+    matchLabels:
+      app: calc-node
+  template:
+    metadata:
+      labels:
+        app: calc-node
+    spec:
+      containers:
+      - name: calc-node-container
+        image: dockerbymariam/calc-node:latest 
+        ports:
+        - containerPort: 3000
