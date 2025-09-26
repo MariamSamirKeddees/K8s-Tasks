@@ -35,4 +35,4 @@ as i'm working on minikube i should create minikube tunnel everytime to make it 
 	- in your primary terminal use this command:
 		kubectl get svc -n ingress-nginx 
 	- to get the external ip you should put in the ingress yaml file as the host, then apply the file
-	- go to browser and browse this: http://host.nip.io 
+	- go to browser and browse this: http://the-host-provided-in-ingress.yaml.nip.io 
