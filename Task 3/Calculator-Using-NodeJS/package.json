@@ -1,0 +1,20 @@
+{
+  "name": "Calculator using Nodejs",
+  "version": "1.0.0",
+  "description": "Calculator Web App",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon script.js",
+    "start": "node src/server.js"
+  },
+  "author": "Mariam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@ljharb/tsconfig": "^0.3.2",
+    "@tsconfig/node21": "^21.0.5"
+  }
+}
